@@ -1,9 +1,9 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Bruno Lima",
-    "role": "Frontend Developer and Ux Designer",
-    "linkedinId":"brunoliimas",
-    "roleDescription": "Description",
+    "role": "Desenvolvedor front end e UX designer",
+    "linkedinId":"https://linkedin.com/in/brunoliimas",
+    "roleDescription": "",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -21,9 +21,9 @@ let resumeData = {
           "className":"fa fa-instagram"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"Programador full stack junior. Iniciei minha carreira na tecnologia faz pouco mais de 6 meses e estou buscando uma oportunidade de iniciar no mercado de trabalho atuando na área que me faz feliz. Estou preparado para todo tipo de desafio e continuo estudando para ampliar meus conhecimentos na área. Pretendo iniciar uma faculdade na área de tecnologia assim que possível, no intuito de ter formação acadêmica e ter a oportunidade de crescimento maior onde quer que eu esteja trabalhando.",
     "address":"São Paulo/SP",
-    "website":"Site",
+    "website":"http://linkedin.com/in/brunoliimas",
     "education":[
       {
         "SchoolName":"Mastertech",
@@ -43,51 +43,64 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"Mastertech",
-        "specialization":"Assistente Administrativo/Relacionamento B2B",
+        "specialization":"Corporate Sales",
         "MonthOfLeaving":"Mar",
         "YearOfLeaving":"2019",
-        "Achievements":"Some Achievements"
+        "Achievements":"Relacionamento/Comercial B2B; Facilitador de treinamentos e cursos (Programação, metodologia ágil, ux); Processos logísticos dos treinamentos e cursos; Funções administrativas."
       },
       {
         "CompanyName":"Mastertech",
         "specialization":"Ninja",
-        "MonthOfLeaving":"Ago",
+        "MonthOfLeaving":"ago",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"Auxílio de professor durante os Cursos de Programação, UX e Metodologias Ágeis."
+      },
+      {
+        "CompanyName":"Studio Curi Marcenaria",
+        "specialization":"Projetista / Assistente administrativo",
+        "MonthOfLeaving":"jun",
+        "YearOfLeaving":"2018",
+        "Achievements":"Projetista 3D com Sketchup; Planejador de Cortes; Funções Administrativas."
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"Minhas Habilidades (0 á 1 ano)",
     "skills":[
-      {
-        "skillname":"HTML5"
-      },
       {
         "skillname":"CSS"
       },
       {
+        "skillname":"HTML5"
+      },
+      {
         "skillname":"Reactjs"
+      },
+      {
+        "skillname":"Nodejs"
+      },
+      {
+        "skillname":"MongoDb"
       }
     ],
     "portfolio":[
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"../images/avatar1.png"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"../images/avatar2.png"
       },
       {
         "name":"project3",
         "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"../images/avatar3.png"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"../images/avatar1.png"
       }
     ],
     "testimonials":[
@@ -101,5 +114,4 @@ let resumeData = {
       }
     ]
   }
-  
 export default resumeData
