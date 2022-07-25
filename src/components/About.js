@@ -18,7 +18,12 @@ export default class About extends Component {
                {
                  resumeData.aboutme
                }
-               </p>
+                </p>
+                <p style={{ fontWeight: "bold", color: "#11ABB0", fontSize: "2rem"}}>
+                   {
+                      resumeData.newOportunity
+                   }
+                </p>
 
                <div className="row">
 
